@@ -1,1 +1,1 @@
-C Variabless
+C variables
