@@ -6,11 +6,13 @@
  * Return: Always 0 (success)
  */
 
-int main() {
-  char lowercase = 'a';
-  while (lowercase <= 'z') {
-    printf("%c\n", lowercase);
-    lowercase++;
-  }
-  return 0;
+int main(void) 
+{
+char lowercase = 'a';
+while (lowercase <= 'z') 
+{
+printf("%c\n", lowercase);
+lowercase++; 
+}
+return 0;
 }
