@@ -6,20 +6,15 @@
  * Return: Always 0 (success)
  */
 
-int main(void)
-{
-int lowerCase = 'a';
-while (lowerCase <= 'z')
+int main(void) {
+	  int ch;
 
-if (lowerCase == 'e' || lowerCase == 'q')
-{
-lowercase += 1;
-}
-else
-{
-putchar(lowerCase);
-lowerCase += 1;
-}
-putchar('\n');
-return (0);
+	    for (ch = 'a'; ch <= 'z'; ch++) {
+		        if (ch != 'q' && ch != 'e') {
+				      putchar(ch);
+				          }
+			  }
+
+	      putchar('\n');
+	        return 0;
 }
