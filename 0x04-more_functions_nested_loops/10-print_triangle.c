@@ -1,15 +1,14 @@
 #include "main.h"
 
 /**
- * print_traingle - entry point
- * Description:i Prints diagonals
+ * print_traingle - prints a triangle, followed by a new line
+ *
  * @size: size of the triangle
- * Return: void
+ * print_triangle
  */
 
-void print_triangle(int size);
+void print_triangle(int size)
 {
-	int row, hashes, spaces;
 
 	if (size <= 0)
 	{
@@ -22,10 +21,11 @@ void print_triangle(int size);
 		for (i = 1; i <= size; i++)
 		{
 
-			for (j = i; = j < size; j++)
+			for (j = i; j < size; j++)
 			{
 				_putchar(' ');
 			}
+
 			for (j = 1; j <= i; j++)
 			{
 				_putchar('#');
