@@ -1,10 +1,10 @@
 #include "hash_tables.h"
 
 /**
- * hash_table_set - Add an element into hash table,
- * @ht: pointer to hash table,,
- * @key: The key to add, - string cannot be empty,,
- * @value: for value associated with key
+ * hash_table_set - update an element in hash table,
+ * @ht: pointer to hash table,
+ * @key: key to add - cannot be an empty string,
+ * @value: value associated with key,
  *
  * Return: If failed - 0.
  *         Else - 1.
